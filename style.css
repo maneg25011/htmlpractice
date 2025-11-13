@@ -1,3 +1,4 @@
+
 .body
 {
     color: white;
@@ -25,22 +26,22 @@
 
 .presentation
 {
+    width: 40vw;
     margin-left: 15%;
-    margin-right: 15%;
     margin-top: 10%;
     margin-bottom: 5%;
 }
 
-.presentation-logo
+#logo
 {
-    font-family: Papyrus, fantasy;
-    font-size: 8vw;
+    width: 40vw;
 }
 
 .presentation-text
 {
-    width: 500px;
-    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.3vw;
 }
 
 .index_books
