@@ -32,16 +32,17 @@
     margin-bottom: 5%;
 }
 
-#logo
+#presentation_logo
 {
-    width: 40vw;
+    width: 100%;
+    height: auto;
 }
 
 .presentation-text
 {
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 1.3vw;
+    font-size: 20px;
 }
 
 .index_books
