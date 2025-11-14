@@ -1,52 +1,49 @@
-
 .body
 {
     color: white;
-    background-color: #111215;
+    background-color: #151515;
 }
 
 .navbar
 {
+    background-color: black;
     font-family: Papyrus, fantasy;
 }
 
 .container-fluid
 {
-    font-size: 1.3rem;
-    margin-left: 20%;
-    margin-right: 20%;
+    font-size: 1.4rem;
 }
 
 .logo
 {
     color: white !important;
-    font-size: 3rem;
+    font-size: 1.4rem;
     text-decoration: none !important;
 }
 
 .presentation
 {
-    width: 40vw;
-    margin-left: 15%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    display:grid;
+    text-align: center;
+    place-items: center;
 }
 
-#presentation_logo
+.presentation img
 {
-    width: 100%;
+    width: 25%;
     height: auto;
+    margin: 10%;
 }
 
-.presentation-text
+.presentation p
 {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 20px;
+    width: 500px;
 }
 
 .index_books
 {
+    background-color: white;
     align-items: center;
     display: flex;
     justify-content: center;
