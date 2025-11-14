@@ -1,13 +1,14 @@
 .body
 {
     color: white;
-    background-color: #151515;
+    background-color: white;
 }
 
 .navbar
 {
-    background-color: black;
+    background-color: #0b2e33;
     font-family: Papyrus, fantasy;
+    height: 10vh;
 }
 
 .container-fluid
@@ -24,16 +25,19 @@
 
 .presentation
 {
-    display:grid;
+    background-color: #4f7c82;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     place-items: center;
+    height: 90vh;
 }
 
 .presentation img
 {
     width: 25%;
     height: auto;
-    margin: 10%;
+    margin: 7%;
 }
 
 .presentation p
@@ -44,18 +48,18 @@
 .index_books
 {
     color: black;
-    background-color: white;
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
+    height: 100vh;
 }
 
 .index_books img
 {
     border: solid 10px transparent;
     opacity: 0.7;
-    width: 350px;
+    height: 80vh;
     
 }
 
@@ -72,15 +76,13 @@
 
 .games
 {
+    background-color: #0b2e33;
     align-items: center;
     display: flex;
     gap: 30px;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 10%;
-    margin-top: 10%;
     opacity: 0.5;
+    height: 100vh;
 }
 
 .games img
