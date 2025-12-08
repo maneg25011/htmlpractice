@@ -28,80 +28,56 @@
 			</nav>
 		</header>
 
-		<!-- Main -->
-		<main class="assets_main">
-			<header class="godot_header">
-					<h1>Game Assets</h1>
-					<h5>These are some of the graphical assets used in the game, and credits to the artists that made them.</h5>
-			</header>
-			<hr>
-			<div>
-				<p style="margin: 2%">Lorem ipsum dolor sit amet consectetur adipiscing, elit ligula aliquet habitasse auctor potenti, nulla enim cursus tristique fringilla. Habitant senectus placerat augue lobortis neque faucibus feugiat suscipit sapien, lectus primis bibendum penatibus sed justo tristique taciti, ac volutpat eros tempor litora natoque dictumst porttitor. Cras platea risus magnis elementum dapibus a erat leo etiam auctor venenatis ultricies, massa himenaeos magna ad nibh pretium proin vehicula nisi parturient.</p>
-				<hr>
+		<!-- Presentation -->
+			<div class="presentation">
+				<p>Hi there!<br>My name is Manuel, I'm from Argentina and this site is about the video game I'm making for my CS50 final project.</p>
 			</div>
-			<div class="assets_content">
-				<div>
-					<h3>Player Character</h3>
-					<img id="animation_character" src="images/character_idle.gif"  alt="Animated player character" style="height: 30vh;">
-					<br>
-					<button class="btn btn-primary" id="character_run">run</button>
-					<button class="btn btn-primary" id="character_idle">idle</button>
-					<button class="btn btn-primary" id="character_attack">attack</button>
-					<h5>Artist: Ventilatore<br>https://ventilatore.itch.io/</h5>
-				</div>
-				<hr>
+
+		<!-- Bootstrap carousel -->
+		<div id="Captions" class="carousel slide" data-bs-ride="true">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#Captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#Captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#Captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
-			<div class="assets_content">
-				<div>
-					<h3>Structure</h3>
-					<img id="character_animation" src="images/structure.gif"  alt="Animated structure" style="height: 50vh;">
-					<br>
-					<h5>Artist: Papoy Core<br>https://papoycore.itch.io/</h5>
-				</div>
-				<hr>
-			</div>
-			<div class="assets_content">
-				<div>
-					<h3>Enemy</h3>
-					<img id="animation_slime" src="images/slime_idle.gif"  alt="Animated slime enemy" style="height: 30vh;">
-					<br>
-					<button class="btn btn-primary" id="slime_left">run left</button>
-					<button class="btn btn-primary" id="slime_idle">idle</button>
-					<button class="btn btn-primary" id="slime_attack">attack</button>
-					<button class="btn btn-primary" id="slime_right">run right</button>
-					<h5>Source: https://craftpix.net</h5>
-				</div>
-				<hr>
-			</div>
-			<div class="assets_content">
-				<div>
-					<h3>Map tileset</h3>
-					<br>
-					<a href="image_01.html">
-						<img src="images/terrain_tiles.png"  alt="Terrain tileset" style="height: 40vh;">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a href="godot.html">
+						<img src="images/godot.jpg" class="d-block w-100" alt="Godot Engine">
+						<div class="carousel-caption">
+							<h5>Godot and GDScript</h5>
+							<p>The software and language I'm using to make the game. More information here.</p>
+						</div>
 					</a>
-					<a href="image_02.html">
-						<img src="images/county_tileset.gif"  alt="Animated pond" style="height: 40vh;">
-					</a>
-					<a href="image_03.html">
-						<img src="images/objects.png"  alt="Objects tileset" style="height: 40vh;">
-					</a>
-					<br>
-					<h5>Artist: schwarnhild<br>https://schwarnhild.itch.io/</h5>
 				</div>
-				<hr>
-			</div>
-			<div class="assets_content">
-				<div>
-					<h3>Music</h3>
-					<audio controls>
-  						<source src="images/cottagecore - by lindseysewell from freesound_community from Pixabay.mp3" type="audio/mp3">
-					</audio>
-					<h5>Artist: lindseysewell<br>freesound_community from Pixabay</h5>
+				<div class="carousel-item" .active>
+					<a href="assets.html">
+						<img src="images/tileset_link.jpg" class="d-block w-100" alt="Video game sprite sheet">
+						<div class="carousel-caption d-md-block">
+							<h5>Assets</h5>
+							<p>Sprites, tile sets, sound, etc. More information here.</p>
+						</div>
+					</a>
 				</div>
-				<hr>
+				<div class="carousel-item">
+					<a href="game.html"> 
+						<img src="images/cs50 game proyect.png" class="d-block w-100" alt="Game screenshot">
+						<div class="carousel-caption d-md-block">
+							<h5>The Game</h5>
+							<p>A little preview of the game itself. More information here.</p>
+						</div>
+					</a>
+				</div>
 			</div>
-		</main>
+			<button class="carousel-control-prev" type="button" data-bs-target="#Captions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#Captions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
 
 		<!-- Footer -->
 		<div class="footer">
@@ -115,45 +91,12 @@
 				<button type="button" onclick="topFunction()" class="btn btn-outline-primary">Back to top</button>
 			</div>
 		</div>
-		
+
 		<!-- Script -->
 		<script>
-			// Change gifs animations
-			let animation = document.querySelector("#animation_character"); 
-			let animation_slime = document.querySelector("#animation_slime"); 
-			let attack_sound = new Audio('images/slash.mp3');
-			let slime_move_sound = new Audio('images/slime_sound.mp3');
-
-			document.querySelector('#character_run').onclick = function() {
-				animation.src = "images/character_run.gif";
-			}
-			document.querySelector('#character_idle').onclick = function() {
-				animation.src = "images/character_idle.gif";
-			}
-				document.querySelector('#character_attack').onclick = function() {
-				animation.src = "images/character_attack.gif";
-				attack_sound.play();
-			}
-			
-			document.querySelector('#slime_idle').onclick = function() {
-				animation_slime.src = "images/slime_idle.gif";
-			}
-			document.querySelector('#slime_attack').onclick = function() {
-				animation_slime.src = "images/slime_attack.gif";
-			}
-					document.querySelector('#slime_left').onclick = function() {
-				animation_slime.src = "images/slime_left.gif";
-				slime_move_sound.play();
-			}
-					document.querySelector('#slime_right').onclick = function() {
-				animation_slime.src = "images/slime_right.gif";
-				slime_move_sound.play();
-			}
-
-			// Back to top button
 			function topFunction() {
 				document.documentElement.scrollTop = 0;
-			}	
+				}	
 		</script>
 	</body>
 </html>
