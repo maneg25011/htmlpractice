@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>	
+		<link href="style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+	<body class="body">	
+
+		<!-- Bootstrap navigation bar -->	
+		<header> 
+			<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="index.html">Home</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      					<span class="navbar-toggler-icon"></span>
+    				</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" href="godot.html">Godot</a>
+							<a class="nav-link active" href="assets.html">Assets</a>
+							<a class="nav-link active" href="game.html">Game</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<main class="godot_main">
+			<header class="godot_header">
+				<h1 class="godot_text">Godot</h1>
+				<h5 class="godot_text">My final project for CS50 consist in a game made with Godot, an engine with it's own languaje, GDScript.</h5>
+			</header>
+			<hr>
+			<div class="godot_content">
+				<h3 class="godot_text">About Godot</h3>
+				<div class="godot_container">
+					<p class="godot_text">Godot is a cross-platform, free and open-source game engine released under the permissive MIT license. It was initially developed in Buenos Aires by Argentine software developers Juan Linietsky and Ariel Manzur for several companies in Latin America prior to its public release in 2014. The development environment runs on many platforms, and can export to several more. It is designed to create both 2D and 3D godot targeting PC, mobile, web, and virtual, augmented, and mixed reality platforms and can also be used to develop non-game software.<br> Godot allows video game developers to create both 3D and 2D godot using multiple programming languages, such as C++, C# and GDScript. It makes use of a hierarchy of nodes to facilitate the development experience. Classes can be derived from a node type to create more specialized node types that inherit behavior. Nodes are organized inside of "scenes", which are reusable, instantiable, inheritable, and nestable groups of nodes. Nodes are connected by signals, which can transmit data objects. All game resources, including scripts and graphical assets, are saved as part of the computer's file system (rather than in a database). This storage solution is intended to facilitate collaboration between game development teams using software version control systems.<br>Source: https://en.wikipedia.org/wiki/Godot_(game_engine)</p>
+					<img src="images/godot.jpg"></img>
+				</div>
+				<hr>
+				<h3 class="godot_text">GDScript</h3>
+				<div class="godot_container">
+					<img src="images/gdscript.jpg"></img>
+					<p class="godot_text">Godot has its own built-in scripting language, GDScript, a high-level, gradually typed programming language which is syntactically similar to Python. Unlike Python, GDScript is optimized for Godot's scene-based architecture and can specify strict typing of variables. Godot's developers have stated that many alternative third-party scripting languages such as Lua, Python, and Squirrel were tested before deciding that using a custom language allowed for superior optimization and editor integration.<br> GDScript is a continuously evolving scripting language, and changes and additions to it have been implemented for each major new release of Godot. Typed arrays and typed dictionaries were added in 4.0 and 4.4 respectively. The optional static types allow the C++ back end to apply optimizations that result in notably increased performance; statically-typed GDScript has been observed to run more than 40% faster in release builds.<br> GDScript is a high-level, object-oriented, imperative, and gradually typed programming language built for Godot. It uses an indentation-based syntax similar to languages like Python. Its goal is to be optimized for and tightly integrated with Godot Engine, allowing great flexibility for content creation and integration. </p>
+				</div>
+			</div>
+		</main>
+
+		<!-- Footer -->
+		<div class="footer">
+			<div>
+			</div>
+			<div>
+				<p>manuelg25011@gmail.com</p>
+				<p style="font-size: 12px">© 2025 Manuel Giommetti</p>
+			</div> 
+			<div>
+				<button type="button" onclick="topFunction()" class="btn btn-outline-primary">Back to top</button>
+			</div>
+		</div>
+		
+		<script>
+			function topFunction() {
+  				document.documentElement.scrollTop = 0;
+			}	
+		</script>
+	</body>
+</html>

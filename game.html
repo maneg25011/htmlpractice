@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>	
+		<link href="style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+	<body class="body">	
+
+		<!-- Bootstrap navigation bar -->	
+		<header> 
+			<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="index.html">Home</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      					<span class="navbar-toggler-icon"></span>
+    				</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" href="godot.html">Godot</a>
+							<a class="nav-link active" href="assets.html">Assets</a>
+							<a class="nav-link active" href="game.html">Game</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<!-- Main -->
+		<main class="game_main">
+			<header class="godot_header">
+				<h1>The Game</h1>
+				<h5>Lorem ipsum dolor sit amet consectetur adipiscing, elit ligula aliquet habitasse auctor potenti, nulla enim cursus tristique fringilla.</h5>
+			</header>
+			<hr>
+			<div>
+				<p style="margin: 2%">Lorem ipsum dolor sit amet consectetur adipiscing, elit ligula aliquet habitasse auctor potenti, nulla enim cursus tristique fringilla. Habitant senectus placerat augue lobortis neque faucibus feugiat suscipit sapien, lectus primis bibendum penatibus sed justo tristique taciti, ac volutpat eros tempor litora natoque dictumst porttitor. Cras platea risus magnis elementum dapibus a erat leo etiam auctor venenatis ultricies, massa himenaeos magna ad nibh pretium proin vehicula nisi parturient.</p>
+				<hr>
+			</div>
+			<div class="game_content">
+				<video width="720" height="480" controls>
+					<source src="images/mov.mp4" type="video/mp4">
+				</video>
+			</div>
+			<hr>
+		</main>
+
+		<!-- Footer -->
+		<div class="footer">
+			<div>
+			</div>
+			<div>
+				<p>manuelg25011@gmail.com</p>
+				<p style="font-size: 12px">© 2025 Manuel Giommetti</p>
+			</div> 
+			<div>
+				<button type="button" onclick="topFunction()" class="btn btn-outline-primary">Back to top</button>
+			</div>
+		</div>
+		
+		<!-- Script -->
+		<script>
+			function topFunction() {
+  				document.documentElement.scrollTop = 0;
+			}	
+		</script>
+	</body>
+</html>
